@@ -3,4 +3,4 @@ Hopefully a nice LDtk file loader for Scala
 
 A Scala parser for https://ldtk.io/json/ using circe!
 
-The sample level is from the LDtk built in example: https://github.com/deepnight/ldtk and is under the MIT license.
+The sample level and JSON schema are from the LDtk https://github.com/deepnight/ldtk and are under the MIT license.
