@@ -39,5 +39,3 @@ metals.sbt
 .ammonite
 .coursier
 .scala-build/
-indigo/site/public/
-website/build/
