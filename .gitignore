@@ -1,41 +1,26 @@
-*.class
-*.log
-.DS_Store
+# sbt
+target/
+project/plugins/project/
+boot/
+lib_managed/
+src_managed/
 
-# Windows specific
-null/
+# vim
+*.sw?
 
-# mill specific
-out
-publish.sh
-credentials.sh
+# intellij
+.idea/
 
-# sbt specific
-sbt
-.sbt-local
-.cache
-.history
-.lib
-dist
-target
-lib_managed
-src_managed
-credentials.sbt
+# ignore [ce]tags files
+tags
 
-# IDE specific
-.idea
-*.iml
-.vscode/
-.vim
-.dotty-ide-disabled
-*.swp
-
-node_modules
-elm-stuff
+# metals
 .metals/
-.bloop
-metals.sbt
 .bsp/
-.ammonite
-.coursier
-.scala-build/
+.bloop/
+metals.sbt
+.vscode
+
+# npm
+node_modules/
+.direnv
